@@ -639,6 +639,16 @@ vendor/firmware/cpp_firmware_v1_8_0.fw
 # Camera OIS
 vendor/lib/libois_bu63165.so
 
+# ESE-Powermanager
+vendor/bin/hw/vendor.qti.esepowermanager@1.0-service|7596758328bb4a1df43bf4ea85b729f55266ac29
+vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc|58a3866ad5a7613d9392c9adb671eaa7825578a2
+lib/vendor.qti.esepowermanager@1.0.so|85925d5b357da2079b47e15e05b82f32751a7095
+lib64/vendor.qti.esepowermanager@1.0.so|3db84c2bc0852662ed5dea3617e0fffca1d99551
+vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so|ead863d08922144b68a0f10db23a0056e41ea47f
+vendor/lib/vendor.qti.esepowermanager@1.0.so|f614a5e72e3cb036cd86ba1b02bfa8650515a8e0
+vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so|5d4b47b59000ddf10d9b234859be3e14fc6e413d
+vendor/lib64/vendor.qti.esepowermanager@1.0.so|173400cccb8bed57335ed8e93276f0e0d26ca2e5
+
 # Fingerprint sensor
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
 vendor/bin/qfp-daemon
